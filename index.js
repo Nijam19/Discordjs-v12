@@ -43,4 +43,4 @@ client.on('message', async message => {
     let commandFile = client.commands.get(cmd) || client.commands.get(client.aliases.get(cmd));
     if(commandFile) commandFile.run(client, message, args);
 });
-client.login(`Your Bot Token`);
+client.login(`MTA3NjE2MTgxNDQ2MDY0MTI4MA.GwVpfM.axcTFcTIMY1W5lg3VLwsW-kO8Vl7DM_B-t8oqI`);
